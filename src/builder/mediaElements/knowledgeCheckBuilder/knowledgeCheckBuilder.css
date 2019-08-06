@@ -1,0 +1,17 @@
+.kc-builder__answers {
+    margin-top: 10px;
+}
+
+.kc-builder__item {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.kc-builder__item input[type=text] {
+    border: 1px solid #dadada;
+    box-sizing: border-box;
+    height: 35px;
+    margin-left: 5px;
+    padding: 0 10px;
+    width: 350px;
+}

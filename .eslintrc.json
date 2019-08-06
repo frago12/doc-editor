@@ -1,0 +1,14 @@
+{
+    "extends": "react-app",
+    "parser": "babel-eslint",
+    "plugins": [
+        "flowtype"
+    ],
+    "rules": {
+        "semi": ["error", "never"],
+        "no-unused-vars": "error",
+        "jsx-a11y/href-no-hash": "off",
+        "no-trailing-spaces": "error",
+        "comma-dangle": ["error", "always-multiline"]
+    }
+}

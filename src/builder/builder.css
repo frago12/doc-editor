@@ -1,0 +1,5 @@
+@import '~draft-js/dist/Draft.css';
+
+.builder__page-wrapper {
+    padding: 60px;
+}

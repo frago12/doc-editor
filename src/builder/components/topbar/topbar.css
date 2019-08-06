@@ -1,0 +1,51 @@
+.topbar {
+    background: #f5f5f5;
+    border-bottom: 1px solid #dadada;
+    display: flex;
+    height: 60px;
+}
+
+.topbar > * {
+    flex: 1;
+}
+
+.topbar__apps {
+    border-right: 1px solid #e2e2e2;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    max-width: 60px;
+    text-align: center;
+}
+.topbar__apps-icon {
+    opacity: 0.3;
+    width: 32px;
+}
+.topbar__apps:hover .topbar__apps-icon { opacity: 0.5; }
+
+.topbar__input {
+    background: transparent;
+    border: none;
+    box-sizing: border-box;
+    color: #666;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+}
+
+.topbar__publish {
+    background: #00a1ff;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 40px;
+    margin: 10px 20px 0 0;
+    max-height: 40px;
+    max-width: 130px;
+    outline: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+.topbar__publish:hover { opacity: 0.8; }

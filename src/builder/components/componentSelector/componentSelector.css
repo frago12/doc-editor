@@ -1,0 +1,37 @@
+.component-selector {
+    display: flex;
+}
+
+.component-selector__button {
+    border: 1px solid #dadada;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bold;
+    height: 35px;
+    margin-right: 5px;
+    opacity: 0.3;
+    max-width: 35px;
+    width: 35px;
+}
+.component-selector__button:focus,
+.component-selector__button:hover {
+    opacity: 1;
+}
+
+.component-selector__toggle {
+    font-size: 20px;
+    transition: all 0.2s;
+}
+.component-selector.isOpen .component-selector__toggle {
+    transform: rotate(45deg)
+}
+
+.component-selector__list {
+    height: 35px;
+    overflow: hidden;
+    transition: all 0.5s;
+    width: 0;
+}
+.component-selector.isOpen .component-selector__list {
+    width: 100%;
+}

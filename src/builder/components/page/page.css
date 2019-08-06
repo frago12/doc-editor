@@ -1,0 +1,10 @@
+.page {
+    background: #fff;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.page__title {
+    margin-bottom: 20px;
+}
